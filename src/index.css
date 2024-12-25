@@ -35,3 +35,15 @@ nav{
 h1{
   font-size: 1.8rem;
 }
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: pink;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
