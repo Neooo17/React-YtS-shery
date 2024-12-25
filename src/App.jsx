@@ -87,41 +87,41 @@
 
 
 
-import React from 'react'
-import { useState } from 'react'
+// import React from 'react'
+// import { useState } from 'react'
 
-const App = () => {
+// const App = () => {
 
-  const [Username, setUsername] = useState('')
+//   const [Username, setUsername] = useState('')
 
-  const submitHandler = (e) => {
-    e.preventDefault()
-    // console.log('submitted');
-    console.log(Username);
-    setUsername('')
+//   const submitHandler = (e) => {
+//     e.preventDefault()
+//     // console.log('submitted');
+//     console.log(Username);
+//     setUsername('')
     
-  }
+//   }
   
-  return (
-    <div>
-      <form onSubmit={ (e) => {
-        submitHandler(e)
-      }}>
-        <input 
-        value={Username}
-        onChange={ (e) => {
-          // console.log(e.target.value);
-          setUsername(e.target.value)
+//   return (
+//     <div>
+//       <form onSubmit={ (e) => {
+//         submitHandler(e)
+//       }}>
+//         <input 
+//         value={Username}
+//         onChange={ (e) => {
+//           // console.log(e.target.value);
+//           setUsername(e.target.value)
           
-        }}
-        type="text"
-        placeholder='Enter Your Username'
-        />
-      <button>Submit</button>
-      </form>
+//         }}
+//         type="text"
+//         placeholder='Enter Your Username'
+//         />
+//       <button>Submit</button>
+//       </form>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
