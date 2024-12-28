@@ -139,8 +139,7 @@ const App = () => {
     <>
       <Navbar />
       <Footer />
-    </>
-      
+    </>    
   )
 }
 
